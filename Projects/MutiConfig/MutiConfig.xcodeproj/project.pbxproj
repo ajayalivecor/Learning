@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C9B2CD8DC8862797906F97 /* Pods_MutiConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140596E56C3024FE449987A5 /* Pods_MutiConfig.framework */; };
 		DD44C61E29E7BAA4005139F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44C61D29E7BAA4005139F6 /* AppDelegate.swift */; };
 		DD44C62029E7BAA4005139F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44C61F29E7BAA4005139F6 /* SceneDelegate.swift */; };
 		DD44C62229E7BAA4005139F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44C62129E7BAA4005139F6 /* ViewController.swift */; };
 		DD44C62529E7BAA4005139F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD44C62329E7BAA4005139F6 /* Main.storyboard */; };
 		DD44C62729E7BAA7005139F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD44C62629E7BAA7005139F6 /* Assets.xcassets */; };
 		DD44C62A29E7BAA7005139F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD44C62829E7BAA7005139F6 /* LaunchScreen.storyboard */; };
+		DD44C63B29E7C51C005139F6 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD44C63A29E7C51C005139F6 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		140596E56C3024FE449987A5 /* Pods_MutiConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MutiConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448941D5F982A14A9C71DF04 /* Pods-MutiConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutiConfig.debug.xcconfig"; path = "Target Support Files/Pods-MutiConfig/Pods-MutiConfig.debug.xcconfig"; sourceTree = "<group>"; };
+		8141304064B9486547EAE39D /* Pods-MutiConfig.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutiConfig.staging.xcconfig"; path = "Target Support Files/Pods-MutiConfig/Pods-MutiConfig.staging.xcconfig"; sourceTree = "<group>"; };
+		A22ADCCDEB07637B19B07BAC /* Pods-MutiConfig.pilot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutiConfig.pilot.xcconfig"; path = "Target Support Files/Pods-MutiConfig/Pods-MutiConfig.pilot.xcconfig"; sourceTree = "<group>"; };
 		DD44C61A29E7BAA4005139F6 /* MutiConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutiConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD44C61D29E7BAA4005139F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD44C61F29E7BAA4005139F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		DD44C62629E7BAA7005139F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD44C62929E7BAA7005139F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD44C62B29E7BAA7005139F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD44C63A29E7C51C005139F6 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		E82CE3397447546E42A183BE /* Pods-MutiConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutiConfig.release.xcconfig"; path = "Target Support Files/Pods-MutiConfig/Pods-MutiConfig.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C9B2CD8DC8862797906F97 /* Pods_MutiConfig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49CB58E7D98A5BC96029729F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				448941D5F982A14A9C71DF04 /* Pods-MutiConfig.debug.xcconfig */,
+				8141304064B9486547EAE39D /* Pods-MutiConfig.staging.xcconfig */,
+				E82CE3397447546E42A183BE /* Pods-MutiConfig.release.xcconfig */,
+				A22ADCCDEB07637B19B07BAC /* Pods-MutiConfig.pilot.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DD44C61129E7BAA4005139F6 = {
 			isa = PBXGroup;
 			children = (
 				DD44C61C29E7BAA4005139F6 /* MutiConfig */,
 				DD44C61B29E7BAA4005139F6 /* Products */,
+				49CB58E7D98A5BC96029729F /* Pods */,
+				F653D3E5ADD9D08511BF654B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +78,7 @@
 		DD44C61C29E7BAA4005139F6 /* MutiConfig */ = {
 			isa = PBXGroup;
 			children = (
+				DD44C63529E7BF06005139F6 /* Config */,
 				DD44C61D29E7BAA4005139F6 /* AppDelegate.swift */,
 				DD44C61F29E7BAA4005139F6 /* SceneDelegate.swift */,
 				DD44C62129E7BAA4005139F6 /* ViewController.swift */,
@@ -67,6 +90,22 @@
 			path = MutiConfig;
 			sourceTree = "<group>";
 		};
+		DD44C63529E7BF06005139F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DD44C63A29E7C51C005139F6 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F653D3E5ADD9D08511BF654B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				140596E56C3024FE449987A5 /* Pods_MutiConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD44C62E29E7BAA7005139F6 /* Build configuration list for PBXNativeTarget "MutiConfig" */;
 			buildPhases = (
+				5D719ACAE74DF8728293CF08 /* [CP] Check Pods Manifest.lock */,
 				DD44C61629E7BAA4005139F6 /* Sources */,
 				DD44C61729E7BAA4005139F6 /* Frameworks */,
 				DD44C61829E7BAA4005139F6 /* Resources */,
+				FC9863CAC15B637BD0A7BEB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +174,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D719ACAE74DF8728293CF08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MutiConfig-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9863CAC15B637BD0A7BEB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MutiConfig/Pods-MutiConfig-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MutiConfig/Pods-MutiConfig-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MutiConfig/Pods-MutiConfig-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD44C61629E7BAA4005139F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD44C62229E7BAA4005139F6 /* ViewController.swift in Sources */,
+				DD44C63B29E7C51C005139F6 /* AppConfig.swift in Sources */,
 				DD44C61E29E7BAA4005139F6 /* AppDelegate.swift in Sources */,
 				DD44C62029E7BAA4005139F6 /* SceneDelegate.swift in Sources */,
 			);
@@ -168,6 +252,7 @@
 /* Begin XCBuildConfiguration section */
 		DD44C62C29E7BAA7005139F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448941D5F982A14A9C71DF04 /* Pods-MutiConfig.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -228,6 +313,7 @@
 		};
 		DD44C62D29E7BAA7005139F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82CE3397447546E42A183BE /* Pods-MutiConfig.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -282,6 +368,7 @@
 		};
 		DD44C62F29E7BAA7005139F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448941D5F982A14A9C71DF04 /* Pods-MutiConfig.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +382,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +398,7 @@
 		};
 		DD44C63029E7BAA7005139F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82CE3397447546E42A183BE /* Pods-MutiConfig.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +412,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +426,184 @@
 			};
 			name = Release;
 		};
+		DD44C63129E7BED3005139F6 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8141304064B9486547EAE39D /* Pods-MutiConfig.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Staging;
+		};
+		DD44C63229E7BED3005139F6 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8141304064B9486547EAE39D /* Pods-MutiConfig.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR3K86NT68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MutiConfig/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.MutiConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		DD44C63329E7BEEE005139F6 /* Pilot */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22ADCCDEB07637B19B07BAC /* Pods-MutiConfig.pilot.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Pilot;
+		};
+		DD44C63429E7BEEE005139F6 /* Pilot */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22ADCCDEB07637B19B07BAC /* Pods-MutiConfig.pilot.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SR3K86NT68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MutiConfig/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.practice.MutiConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PILOT;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Pilot;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,7 +611,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD44C62C29E7BAA7005139F6 /* Debug */,
+				DD44C63129E7BED3005139F6 /* Staging */,
 				DD44C62D29E7BAA7005139F6 /* Release */,
+				DD44C63329E7BEEE005139F6 /* Pilot */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -352,7 +622,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD44C62F29E7BAA7005139F6 /* Debug */,
+				DD44C63229E7BED3005139F6 /* Staging */,
 				DD44C63029E7BAA7005139F6 /* Release */,
+				DD44C63429E7BEEE005139F6 /* Pilot */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

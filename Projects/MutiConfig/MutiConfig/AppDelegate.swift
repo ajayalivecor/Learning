@@ -10,10 +10,25 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        #if DEBUG
+            print("Prepare DEBUG Configuration")
+        #elseif STAGING
+            print("Prepare STAGING Configuration")
+        #elseif PILOT
+            print("Prepare PILOT Configuration")
+        #else
+            print("Prepare PRODUCTION configuration")
+        #endif
+        
+        if let code = Bundle.main.object(forInfoDictionaryKey: AppConfig.AppCode.rawValue) as? String, let url = Bundle.main.object(forInfoDictionaryKey: AppConfig.AppURL.rawValue) as? String {
+            print(code)
+            let urlString = url.replacingOccurrences(of: AppConfig.Placeholder.rawValue, with: "")
+            print(urlString)
+        }
+        
         return true
     }
 

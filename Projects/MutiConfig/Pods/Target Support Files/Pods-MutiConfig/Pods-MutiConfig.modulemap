@@ -1,0 +1,6 @@
+framework module Pods_MutiConfig {
+  umbrella header "Pods-MutiConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}
