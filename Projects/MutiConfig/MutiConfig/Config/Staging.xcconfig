@@ -1,0 +1,14 @@
+//
+//  Staging.xcconfig
+//  MutiConfig
+//
+//  Created by Ajay Babu Singineedi on 13/04/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-MutiConfig/Pods-MutiConfig.staging.xcconfig"
+
+APP_NAME = MultiConfig Stg
+APP_CODE = Stg
+APP_URL = http:/##/www.staging.com

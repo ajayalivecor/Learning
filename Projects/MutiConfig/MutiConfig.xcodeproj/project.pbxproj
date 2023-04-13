@@ -31,6 +31,10 @@
 		DD44C62929E7BAA7005139F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD44C62B29E7BAA7005139F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD44C63A29E7C51C005139F6 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		DD44C63C29E7CB6B005139F6 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		DD44C63D29E7CB78005139F6 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		DD44C63E29E7CB82005139F6 /* Pilot.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Pilot.xcconfig; sourceTree = "<group>"; };
+		DD44C63F29E7CB8A005139F6 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		E82CE3397447546E42A183BE /* Pods-MutiConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutiConfig.release.xcconfig"; path = "Target Support Files/Pods-MutiConfig/Pods-MutiConfig.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +97,10 @@
 		DD44C63529E7BF06005139F6 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				DD44C63C29E7CB6B005139F6 /* Debug.xcconfig */,
+				DD44C63D29E7CB78005139F6 /* Staging.xcconfig */,
+				DD44C63F29E7CB8A005139F6 /* Release.xcconfig */,
+				DD44C63E29E7CB82005139F6 /* Pilot.xcconfig */,
 				DD44C63A29E7C51C005139F6 /* AppConfig.swift */,
 			);
 			path = Config;
@@ -252,7 +260,7 @@
 /* Begin XCBuildConfiguration section */
 		DD44C62C29E7BAA7005139F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 448941D5F982A14A9C71DF04 /* Pods-MutiConfig.debug.xcconfig */;
+			baseConfigurationReference = DD44C63C29E7CB6B005139F6 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -313,7 +321,7 @@
 		};
 		DD44C62D29E7BAA7005139F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E82CE3397447546E42A183BE /* Pods-MutiConfig.release.xcconfig */;
+			baseConfigurationReference = DD44C63F29E7CB8A005139F6 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -368,7 +376,7 @@
 		};
 		DD44C62F29E7BAA7005139F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 448941D5F982A14A9C71DF04 /* Pods-MutiConfig.debug.xcconfig */;
+			baseConfigurationReference = DD44C63C29E7CB6B005139F6 /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,7 +406,7 @@
 		};
 		DD44C63029E7BAA7005139F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E82CE3397447546E42A183BE /* Pods-MutiConfig.release.xcconfig */;
+			baseConfigurationReference = DD44C63F29E7CB8A005139F6 /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,7 +436,7 @@
 		};
 		DD44C63129E7BED3005139F6 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8141304064B9486547EAE39D /* Pods-MutiConfig.staging.xcconfig */;
+			baseConfigurationReference = DD44C63D29E7CB78005139F6 /* Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -489,7 +497,7 @@
 		};
 		DD44C63229E7BED3005139F6 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8141304064B9486547EAE39D /* Pods-MutiConfig.staging.xcconfig */;
+			baseConfigurationReference = DD44C63D29E7CB78005139F6 /* Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -520,7 +528,7 @@
 		};
 		DD44C63329E7BEEE005139F6 /* Pilot */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22ADCCDEB07637B19B07BAC /* Pods-MutiConfig.pilot.xcconfig */;
+			baseConfigurationReference = DD44C63E29E7CB82005139F6 /* Pilot.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -575,7 +583,7 @@
 		};
 		DD44C63429E7BEEE005139F6 /* Pilot */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22ADCCDEB07637B19B07BAC /* Pods-MutiConfig.pilot.xcconfig */;
+			baseConfigurationReference = DD44C63E29E7CB82005139F6 /* Pilot.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

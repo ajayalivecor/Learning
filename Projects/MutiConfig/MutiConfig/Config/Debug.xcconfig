@@ -1,0 +1,14 @@
+//
+//  Debug.xcconfig
+//  MutiConfig
+//
+//  Created by Ajay Babu Singineedi on 13/04/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-MutiConfig/Pods-MutiConfig.debug.xcconfig"
+
+APP_NAME = MultiConfig Dev
+APP_CODE = Dev
+APP_URL = http:/##/www.debug.com
